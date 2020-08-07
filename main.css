@@ -1,0 +1,244 @@
+body, span {
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+}
+
+.header {
+    height:100vh; 
+    background-image:url("https://static.tildacdn.com/lib/unsplash/d917018c-7a30-834e-dbe7-293d9a45fb4c/photo.jpg");
+    background-attachment: scroll;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.block1 {
+    width: 100%;
+    height: 100vh;
+    font-size: 102px;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding: 0;
+    border: 0;
+    margin: auto 0 auto 0;
+    
+}
+
+.title {
+    margin: auto;
+    padding-top: 20%;
+}
+
+.header-title1, .header-title2 {
+    color: rgb(119, 180, 64);
+    font-size: 102px;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding: 0;
+    border: 0;
+    margin: auto 0 auto 0;
+}
+
+.header-title2 {
+    color: rgb(0, 0, 0);
+}
+
+.arrow {
+    position: absolute;
+    z-index: 9;
+    bottom: 40px;
+    right: 0;
+    left: 0;
+    text-align: center;
+}
+
+.arrow-svg {
+    fill: #fff;
+    x: 0px;
+    y: 0px;
+    width: 38.417px;
+    height: 18.592px;
+    cursor: pointer;
+}
+
+.about {
+    float: none;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    padding-top: 210px;
+    padding-bottom: 210px;
+    text-align: center;
+    
+
+}
+
+.about-h3 {
+    font-size: 22px;
+    color: #20581f;
+    display: block;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 600;
+    box-sizing: content-box;
+    width: 100%;
+    
+}
+
+.about-p {
+    font-size: 24px;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: 'Courier New', monospace;
+    font-weight: 300;
+    color: #000;
+    box-sizing: content-box;
+    display: block;
+    line-height: 1.45;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+
+.img {
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.img1 {
+    background-image: url("https://static.tildacdn.com/lib/unsplash/32883dc5-90ba-403c-6bcd-e858308d487f/photo.jpg");
+}
+
+.whatdowedo {
+    float: none;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    padding-top: 210px;
+    padding-bottom: 210px;
+    text-align: center;
+}
+
+.img2 {
+    background-image: url("https://static.tildacdn.com/lib/unsplash/77e482d3-5e5a-0193-fd4b-10ae3bb80743/photo.jpg");
+}
+
+.advantage {
+    padding: 150px 150px 0 150px;
+    text-align: center;
+    
+}
+
+.card {
+    width: 350px;
+    margin-bottom: 30px;
+    padding: 45px 45px 45px 45px;
+    margin-right: 0;
+    display: inline-block;
+}
+
+.adv-h2 {
+    float: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 60px;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 38px;
+    font-family: 'Roboto',Arial,sans-serif;
+    font-weight: 600;
+    color: #000;
+}
+
+.adv-img {
+    margin-bottom: 25px;
+    width: 100px;
+    height: auto;
+    max-width: 100%;
+    margin-top: 50px;
+}
+
+.adv-h3 {
+    float: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 10px 0 0 0;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 28px;
+    font-family: 'Roboto',Arial,sans-serif;
+    font-weight: 600;
+    color: #000;
+}
+
+.adv-p {
+    font-size: 18px;
+    font-family: 'Courier New', monospace;
+    font-weight: 300;
+    color: #000;
+}
+
+.menu {
+    font-weight: 700;
+    font-size: 62px;
+    color: #2c5d0e;
+    line-height: 42px;
+    text-align: center;
+    font-family: 'Roboto',Arial,sans-serif;
+    margin: 50px;
+}
+
+.content {
+    text-align: center;
+}
+
+.js {
+    width: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 20%;
+}
+
+footer {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-color: #153808;
+    text-align: center;
+    font-family: 'Roboto',Arial,sans-serif;
+    font-weight: 300;
+}
+
+.footer-h2 {
+    margin-bottom: 45px;
+    color: #ffffff;
+    font-size: 38px;
+}
+
+.email {
+    color: #ffffff;
+    font-size: 22px;
+    margin: 0;
+    font-family: 'Courier New', monospace;
+}
+
+.img-link {
+    width: 30px;
+    margin-top: 50px;
+    padding: 0 5px 0 5px;
+}
